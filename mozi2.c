@@ -9,9 +9,9 @@ int main(void){
     for(int i = 0;str[i]!='\0';i++){//0ではない間続ける
         sum++;
     }
-    printf("%d",sum);
+    printf("%d\n",sum);
 
     sum = strlen(str);//string.hをincludeするとできる。やることは文字数を数える
-    printf("%d",sum);
+    printf("%d\n",sum);
 
 }
