@@ -11,7 +11,7 @@ int main(void){
     }
     printf("%d",sum);
 
-    sum = strlenz(str);//string.hをincludeするとできる。やることは文字数を数える
+    sum = strlen(str);//string.hをincludeするとできる。やることは文字数を数える
     printf("%d",sum);
 
 }
