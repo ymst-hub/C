@@ -7,5 +7,6 @@ int main(void){
     int value;
     value = sum(50,100);
     printf("%d\n",value);
+    printf("%d",public);//宣言をh、定義をcで行なっているため使える
     return 0;
 }
