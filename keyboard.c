@@ -19,7 +19,7 @@ int main(void){
 
     //文字の取り出し
     ch = strtok(str,",\n");//区切り文字を検索してEOSと置き換える
-    for(i=0;i<10;i++){
+    for(i=0;i<10;i++){//ここを変更すれば、横が可変でも対応可能
         if(ch ==NULL){
             break;
         }else{
