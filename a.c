@@ -2,8 +2,6 @@
 #include <stdlib.h>
 int main(void)
 {
-    // 自分の得意な言語で
-    // Let's チャレンジ！！
     char str[1000];
     int num, min, sec, buf, buf2, seca[50000], sum = 0, kyoku = 0, g = 0;
     fgets(str, sizeof(str), stdin);
