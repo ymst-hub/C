@@ -2,13 +2,18 @@
 int algo1_7(void);
 int algo1_8(void);
 int algo1_9(void);
+int algo1_10(void);
+int algo1_11(void);
+int algo1_12(void);
 
 int main(void)
 {
 
     //algo1_7();
     //algo1_8();
-    algo1_9();
+    //algo1_9();
+    //algo1_10();
+    algo1_11();
     return 0;
 }
 
@@ -78,5 +83,38 @@ int algo1_9(void){
         min++;
     }
     printf("%d",sum);
+    return 0;
+}
+
+int algo1_10(void){
+    int a,b;
+    puts("B-Aを行います");
+    printf("%s","Aを入力してください:");
+    scanf("%d",&a);
+    do{
+        printf("%s", "Bを入力してください:");
+        scanf("%d",&b);
+    }while (b <= a);
+    printf("%d",b - a);
+    
+    return 0;
+}
+
+int algo1_11(void){
+    int Seisu;
+    int i;
+    puts("整数の桁数を表示します");
+    do{
+        scanf("%d", &Seisu);
+    }while(Seisu < 0);
+    for(i= 0;Seisu > 0;i++){
+        Seisu = Seisu/10;
+    }
+    printf("桁数は%dです",i);
+    return 0;
+}
+
+int algo1_12(void){
+    
     return 0;
 }
