@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int algo1_7(void);
 int algo1_8(void);
 int algo1_9(void);
@@ -8,7 +9,7 @@ int algo1_12(void);
 int algo1_13(void);
 int algo1_14(void);
 int algo1_15(void);
-int algo1_16(void);
+
 
 int main(void)
 {
@@ -22,7 +23,6 @@ int main(void)
     // algo1_13();
     // algo1_14();
     // algo1_15();
-    algo1_16();
     return 0;
 }
 
@@ -180,6 +180,7 @@ int algo1_14(void)
     }
     return 0;
 }
+
 int algo1_15(void)
 {
     int n,m;
@@ -198,7 +199,4 @@ int algo1_15(void)
     return 0;
 }
 
-int algo_16(void)
-{
-    
-}
+
