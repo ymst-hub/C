@@ -109,7 +109,7 @@ int main(void)
     // for1();
     for2();
     //for3();
-    for4();
+    //for4();
 }
 
 //note
